@@ -18,4 +18,4 @@ if d > 0
 elsif d == 0
 	x = -b / (2 * a)
 	puts " and x is #{x}"
-end	
+end
