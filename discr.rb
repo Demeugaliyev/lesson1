@@ -12,10 +12,10 @@ sqrt = Math.sqrt(d)
 print "Discriminant is #{d}"
 
 if d > 0
-	x1 = (-b + sqrt) / (2 * a)
-	x2 = (-b - sqrt) / (2 * a)
-	puts " and x1 is #{x1}, x2 is #{x2}"
+  x1 = (-b + sqrt) / (2 * a)
+  x2 = (-b - sqrt) / (2 * a)
+  puts " and x1 is #{x1}, x2 is #{x2}"
 elsif d == 0
-	x = -b / (2 * a)
-	puts " and x is #{x}"
+  x = -b / (2 * a)
+  puts " and x is #{x}"
 end

@@ -7,7 +7,7 @@ height = gets.chomp
 weight = height.to_i - 110
 
 if weight <= 0
-	puts "You weight is optimal"
+  puts "You weight is optimal"
 else
-	puts "#{name}, you optimal weight is #{weight}"
+  puts "#{name}, you optimal weight is #{weight}"
 end	
